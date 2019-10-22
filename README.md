@@ -23,21 +23,27 @@ Usage
 
     $ pip install -r requirements.txt
     $ python3 generator.py [-p | -l] [number_of_pages] [file_path] [title]
+	
+Arguments:
 
-	Example:	
-	
-	$ python3 generator.py -p 15 loteria.pdf 'Mi Loteria' 
-	
-	Arguments:
 	-h, --help       Shows a help message.
 	-p, --portrait   It will create files in portrait orientation with one
 	                 board per page.
 	-l, --landscape  It will create files in landscape orientation with two
 	                 boards per page.
 	number_of_pages  Number of pages that the file will have. Min. 1. Max. 500
-    	
-					 
+	file_path        Path where the pdf file will be generated.
+	title            Max. 20 characters. If the title contains whitespaces it 
+					 should be quoted.
+Example:	
+	
+	$ python3 generator.py -p 15 loteria.pdf 'Mi Loteria' 
+
+This will create a loteria.pdf file with 15 pages and every board will have
+the title 'Mi Loteria'.
+	
 Built With
 -----------
-	
+
+* [PyFPDF](https://pyfpdf.readthedocs.io/en/latest/) - PDF framework
 	
