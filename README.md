@@ -4,7 +4,7 @@ Generator of Mexican Loteria Boards in PDF format.
 You can create PDF files ready for printing of randomly generated boards for 
 playing Mexican Loteria.
 
-[[https://github.com/floresgfelipeal/loteria_generator/blob/master/pic/picture.PNG|alt=Mexican Loteria Board]]
+![Image](https://github.com/floresgfelipeal/loteria_generator/blob/master/pic/picture.PNG)
 
 Requirements
 ------------
